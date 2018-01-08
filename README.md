@@ -1,8 +1,8 @@
 Open Marriage
 =============
 
-**The open source website for Leslie Verploegen's and Eric Ferraiuolo's wedding:
-<http://leslie-eric.us/>**
+**The open source website for Zainab Zahra's and Ahmed Jafri's wedding:
+<http://zainab-ahmed.jafri.family/>**
 
 Wedding planning is stressful and so is dealing with shitty wedding websites,
 I wanted to reduce our stress so I built the best looking wedding website and
@@ -23,7 +23,7 @@ An easy way to start working with the project is to click the button below which
 will clone this project and deploy a working app to Heroku, all pre-configured
 and ready to roll! Of course you'll need to make some major altar-ations :)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ericf/open-marriage)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ahmedjafri/open-marriage)
 
 
 Built With
@@ -125,7 +125,7 @@ Download this app's code by cloning this Git repo (fork it first if you plan to
 make changes).
 
 ```shell
-$ git clone git://github.com/ericf/open-marriage.git
+$ git clone git://github.com/ahmedjafri/open-marriage.git
 ```
 
 Now install of the app's npm and Bower dependencies (note the Bower dependencies
