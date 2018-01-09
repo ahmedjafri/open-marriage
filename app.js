@@ -1,8 +1,9 @@
 var combo   = require('combohandler'),
     express = require('express'),
-    exphbs  = require('express3-handlebars'),
+    exphbs  = require('express-handlebars'),
     state   = require('express-state'),
-
+    expose  = require('express-expose')
+    
     config     = require('./config'),
     helpers    = require('./lib/helpers'),
     middleware = require('./middleware'),
@@ -12,7 +13,7 @@ var combo   = require('combohandler'),
 
 // -- Configure ----------------------------------------------------------------
 
-app.set('name', 'Leslie-Eric Wedding');
+app.set('name', 'Zainab-Ahmed Wedding');
 app.set('env', config.env);
 app.set('port', config.port);
 app.set('views', config.dirs.views);
@@ -33,8 +34,8 @@ app.engine('hbs', exphbs({
 app.expose(config.yui.config, 'window.YUI_config');
 
 app.locals({
-    title   : 'Leslie & Eric',
-    appTitle: 'L&E Wedding',
+    title   : 'Zainab & Ahmed',
+    appTitle: 'Z&A Wedding',
 
     version    : config.version,
     yui_version: config.yui.version,
