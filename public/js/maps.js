@@ -3,7 +3,7 @@ YUI.add('za-maps', function (Y) {
     var isRetina = Y.config.win.devicePixelRatio >= 2;
     L.mapbox.accessToken = "pk.eyJ1IjoiYWhtZWRqYWZyaSIsImEiOiJjamM4aTB5dGgwczB3MnFtem1scnc4d3JiIn0.bTpkmkSax83o-qldVxVleA"
     
-    Y.all('.map, .event-map').each(function (mapNode) {
+    Y.all('#map, .event-map').each(function (mapNode) {
         var lat = parseFloat(mapNode.getAttribute("lat"))
         var long = parseFloat(mapNode.getAttribute("long"))
         var zoom = parseFloat(mapNode.getAttribute("zoom"))
