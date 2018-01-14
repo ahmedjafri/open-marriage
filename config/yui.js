@@ -10,10 +10,10 @@ exports.config  = {
     root   : YUI_VERSION + '/',
 
     modules: {
-        'mapbox-css': 'http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css',
+        'mapbox-css': 'http://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css',
 
         'mapbox': {
-            fullpath: 'http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js',
+            fullpath: 'http://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js',
             requires: ['mapbox-css']
         }
     },
@@ -31,7 +31,7 @@ exports.config  = {
                 },
 
                 'le-home': {
-                    use: ['le-main', 'le-maps']
+                    use: ['le-main', 'za-maps']
                 },
 
                 'le-main': {
@@ -39,7 +39,7 @@ exports.config  = {
                     requires: ['node-base', 'hide-address-bar']
                 },
 
-                'le-maps': {
+                'za-maps': {
                     path    : 'js/maps.js',
                     requires: ['node-base', 'mapbox']
                 },
@@ -63,9 +63,9 @@ exports.config  = {
                     ]
                 },
 
-                'le-wedding': {
-                    path: 'js/wedding.js',
-                    requires: ['le-main', 'le-maps', 'event-resize', 'graphics']
+                'le-walima': {
+                    path: 'js/walima.js',
+                    requires: ['le-main', 'za-maps', 'event-resize', 'graphics']
                 }
             }
         }

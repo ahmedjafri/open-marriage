@@ -1,19 +1,19 @@
 Open Marriage
 =============
 
-**The open source website for Zainab Zahra's and Ahmed Jafri's wedding:
+**The open source website for Zainab Zahra's and Ahmed Jafri's walima:
 <http://zainab-ahmed.jafri.family/>**
 
-Wedding planning is stressful and so is dealing with shitty wedding websites,
-I wanted to reduce our stress so I built the best looking wedding website and
-easiest RSVP system known to man. Since no other wedding website can compare to
+Walima planning is stressful and so is dealing with shitty walima websites,
+I wanted to reduce our stress so I built the best looking walima website and
+easiest RSVP system known to man. Since no other walima website can compare to
 ours, I thought it would be nice to share what I built and open source our
 marriage [website].
 
-It should be obvious that this project is for a *very specific wedding*, my
-wedding, and it probably won't work well for your wedding (unless you and your
-fiancé are named Leslie and Eric). But hey, if you're building a website for
-your wedding you can use this project as the high bar of excellence :)
+It should be obvious that this project is for a *very specific walima*, my
+walima, and it probably won't work well for your walima (unless you and your
+fiancé are named Zainab and Ahmed). But hey, if you're building a website for
+your walima you can use this project as the high bar of excellence :)
 
 
 Clone and Deploy to Heroku
@@ -30,7 +30,7 @@ Built With
 ----------
 
 Even though I hand-crafted every line of code and push every pixel into its
-place, there's no way I could have created a wedding website this good without
+place, there's no way I could have created a walima website this good without
 using some pay-for web services and free open source software.
 
 ### Services

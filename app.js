@@ -13,7 +13,7 @@ var combo   = require('combohandler'),
 
 // -- Configure ----------------------------------------------------------------
 
-app.set('name', 'Zainab-Ahmed Wedding');
+app.set('name', 'Zainab-Ahmed Walima');
 app.set('env', config.env);
 app.set('port', config.port);
 app.set('views', config.dirs.views);
@@ -35,13 +35,13 @@ app.expose(config.yui.config, 'window.YUI_config');
 
 app.locals({
     title   : 'Zainab & Ahmed',
-    appTitle: 'Z&A Wedding',
+    appTitle: 'Z&A Walima',
 
     version    : config.version,
     yui_version: config.yui.version,
 
     nav: [
-        {id: 'wedding',   url: '/wedding/',   label: 'Wedding'},
+        {id: 'walima',   url: '/walima/',   label: 'Walima'},
         {id: 'logistics', url: '/logistics/', label: 'Logistics'},
         {id: 'registry',  url: '/registry/',  label: 'Registry'},
         {id: 'rsvp',      url: '/rsvp/',      label: 'RSVP'}
@@ -102,7 +102,7 @@ if (config.isDevelopment) {
 
 app.get('/', routes.render('home'));
 
-app.get('/wedding/', routes.render('wedding'));
+app.get('/walima/', routes.render('walima'));
 
 app.get('/logistics/',         routes.render('logistics'));
 app.get('/logistics/hotels/',  routes.render('logistics/hotels'));

@@ -1,5 +1,6 @@
 {
     "default": {
-        "driver": "pg"
+        "driver": "pg",
+        "database":"open-marriage"
     }
 }

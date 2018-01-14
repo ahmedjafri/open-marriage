@@ -327,6 +327,10 @@ a.is-button-negative {
     display: none !important;
 }
 
+.mapbox-improve-map, .mapbox-logo {
+    display: none;
+}
+
 /* 480px */
 @media screen and (min-width: 30em) {
     .ann {
