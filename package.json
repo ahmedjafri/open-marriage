@@ -16,8 +16,8 @@
   },
   "main": "server",
   "engines": {
-    "node": ">=0.8.x",
-    "npm": ">=1.1.2"
+    "node": "0.8.x",
+    "npm": "1.1.2"
   },
   "dependencies": {
     "async": "0.2.x",
