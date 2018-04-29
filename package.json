@@ -17,7 +17,7 @@
   "main": "server",
   "engines": {
     "node": "0.8.x",
-    "npm": "1.1.2"
+    "npm": "5.4.2"
   },
   "dependencies": {
     "async": "0.2.x",
